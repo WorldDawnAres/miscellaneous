@@ -1,4 +1,6 @@
 # Byte-compiled / optimized / DLL files
+*.c linguist-language=c
+*.py linguist-language=python
 __pycache__/
 *.py[cod]
 *$py.class
