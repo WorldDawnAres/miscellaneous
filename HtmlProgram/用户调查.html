@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>用户调查</title>
+</head>
+<body>
+    <h1>用户调查</h1>
+    <form action="" method="post">
+        <label for="name">姓名:</label>
+        <input type="text" name="name"><br>
+        <label for="pwd">密码:</label>
+        <input type="password" name="pwd"><br>
+        <label for="age">年龄:</label>
+        <input type="number" name="age"><br>
+        <label for ="weibo">微博主页:</label>
+        <input type="text" name="weibo" value="http://"><br>
+        <label for="email">邮箱:</label>
+        <input type="email" name="email"><br>
+        <label for="photo">照片:</label>
+        <input type="file" name="photo"><br>
+        喜欢的音乐：<input type="checkbox" name="music" value="摇滚乐">摇滚乐
+        <input type="checkbox" name="music" value="爵士">爵士
+        <input type="checkbox" name="music" value="流行乐">流行乐<br>
+        最佳的城市：<input type="radio" name="city" value="北京">北京
+        <input type="radio" name="city" value="上海">上海
+        <input type="radio" name="city" value="广州" checked>广州<br>
+        最喜欢的网站：<select name="web">
+            <option value="baidu">百度</option>
+            <option value="google">谷歌</option>
+            <option value="taobao">淘宝</option>
+        </select><br><br>
+        爱好：<select name="hobby" size="3" multiple>
+            <option value="旅游" selected>旅游</option>
+            <option value="运动" selected>运动</option>
+            <option value="阅读" selected>阅读</option>
+        </select><br><br>
+        留言：<textArea name="message" rows="10" cols="30">其他未尽事宜，请留言</textArea><br><br>
+        <input type="submit" value="提交">
+        <input type="reset" value="重置">
+        </select>
+    </form>
+</body>
+</html>

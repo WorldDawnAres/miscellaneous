@@ -1,0 +1,26 @@
+<!doctype html> 
+<html> 
+<head>
+    <meta charset="UTF-8">
+    <title>创建普通按钮</title> 
+</head>
+<script>
+function del(){
+    if(confirm("确定要删除该信息吗？删除将不能恢复！"))
+        alert("删除用户");
+}
+</script>
+</head> 
+<body>
+    <form>
+        <input type="button" value="添加" id="addBtn"/> 
+        <input type="button" onclick="del()"value="删除"/>
+    </form> 
+    <script>
+    var oBtn=document.getElementById("addBtn");
+    oBtn.onclick=function(){
+        alert("添加用户");
+    }
+    </script>
+</body> 
+</html>

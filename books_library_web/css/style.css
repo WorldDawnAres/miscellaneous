@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Microsoft YaHei', sans-serif;
+  line-height: 1.6;
+  background-color: #f0f0f0;
+}
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+header nav {
+  background-color: #2c3e50;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 2em;
+  align-items: center;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav ul li {
+  margin-left: 1.5em;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+.wallpaper-wrapper {
+  overflow: hidden;
+  width: 100vw;
+  height: 60vh;
+}
+.wallpapers {
+  display: flex;
+  transition: transform 1s ease;
+}
+.wallpapers img {
+  width: 100vw;
+  height: 60vh;
+  object-fit: cover;
+}
+.intro {
+  padding: 2em;
+  text-align: center;
+}
+.book-list {
+  padding: 2em;
+}
+.books {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+.book {
+  width: 200px;
+  background: white;
+  padding: 1em;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+.book img {
+  width: 100%;
+  height: auto;
+}
+footer {
+  text-align: center;
+  background: #2c3e50;
+  color: white;
+  padding: 1em;
+}
+section {
+  padding: 2em;
+  background-color: #ffffff;
+  margin-bottom: 1em;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+.featured-books .book-cards {
+  display: flex;
+  gap: 1em;
+}
+.book-card {
+  width: 200px;
+  text-align: center;
+}
+.book-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+.events ul {
+  list-style: disc;
+  margin-left: 2em;
+}
+.search-entry form {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+.search-entry input {
+  padding: 0.5em;
+  width: 300px;
+}
+.search-entry button {
+  padding: 0.5em 1em;
+  background: #2c3e50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.search-entry button:hover {
+  background: #1a252f;
+}

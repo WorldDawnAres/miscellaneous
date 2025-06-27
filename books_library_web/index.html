@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>图书馆首页</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">📚 图书馆</div>
+      <ul>
+        <li><a href="index.html">首页</a></li>
+        <li><a href="books.html">图书浏览</a></li>
+        <li><a href="#">借阅规则</a></li>
+        <li><a href="#">登录</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="wallpaper-wrapper">
+    <div id="wallpaperImages" class="wallpapers">
+      <img src="images/wallpaper1.jpg" alt="壁纸1">
+      <img src="images/wallpaper2.jpg" alt="壁纸2">
+      <img src="images/wallpaper3.jpg" alt="壁纸3">
+      <img src="images/wallpaper4.jpg" alt="壁纸4">
+    </div>
+  </div>
+
+  <section class="search-entry">
+    <h2>🔍 查找你的图书</h2>
+    <form action="books.html" method="get">
+        <input type="text" placeholder="输入书名或作者..." name="q">
+        <button type="submit">搜索</button>
+    </form>
+    </section>
+
+    <section class="intro">
+        <h1>欢迎来到图书馆</h1>
+        <p>探索知识的海洋，发现阅读的乐趣。</p>
+    </section>
+
+    <section class="events">
+        <h2>📅 最新活动预告</h2>
+        <ul>
+            <li>5月18日：阅读马拉松（上午10:00 - 图书馆大厅）</li>
+            <li>5月25日：亲子共读日（下午2:00 - 儿童阅览区）</li>
+        </ul>
+    </section>
+
+    <section class="featured-books">
+    <h2>📚 热门图书推荐</h2>
+    <div class="book-cards">
+        <div class="book-card">
+        <img src="images/book1.jpg" alt="热门书籍1">
+        </div>
+        <div class="book-card">
+        <img src="images/book2.jpg" alt="热门书籍2">
+        </div>
+        <div class="book-card">
+        <img src="images/book3.jpg" alt="热门书籍3">
+        </div>
+        <div class="book-card">
+        <img src="images/book4.jpg" alt="热门书籍4">
+        </div>
+        <div class="book-card">
+        <img src="images/book5.jpg" alt="热门书籍5">
+        </div>
+    </div>
+    </section>
+
+    <section class="services">
+    <h2>👨‍🏫 图书馆服务</h2>
+    <p>我们提供图书借阅、自习室预约、电子书阅览、馆际互借等多种服务，欢迎前来体验。</p>
+    </section>
+
+  <footer>
+    <p>&copy; 2025 图书馆系统 版权所有</p>
+  </footer>
+
+  <script src="js/wallpaper.js"></script>
+</body>
+</html>
